@@ -1,238 +1,323 @@
-<!-- ─────────────────────── HEADER ─────────────────────── -->
+<!-- ============================== HERO ============================== -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:36BCF7&height=220&section=header&text=Osama&fontSize=80&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20Developer%20%E2%80%A2%20Sweden%20%F0%9F%87%B8%F0%9F%87%AA&descAlignY=60&descSize=18&animation=fadeIn" width="100%" alt="header" />
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=900&color=36BCF7&center=true&vCenter=true&width=560&lines=%3E+booting+osama.exe+...;Full-Stack+Developer+%E2%9A%A1;Next.js+%2B+React+%2B+TypeScript;tRPC+%2B+Prisma+%2B+PostgreSQL;Payments%2C+Auth+%26+Dashboards+%F0%9F%92%B3;Ship+it%2C+measure+it%2C+improve+it." alt="Typing SVG" />
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/osamakhalili/osamakhalili/main/assets/hero-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/osamakhalili/osamakhalili/main/assets/hero-light.svg" />
+  <img src="https://raw.githubusercontent.com/osamakhalili/osamakhalili/main/assets/hero-dark.svg" width="100%" alt="Osama Khalili — Full-Stack Developer" />
+</picture>
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=osamakhalili&label=Profile%20visitors&color=36BCF7&style=flat-square" alt="visitors" />
-<img src="https://img.shields.io/github/followers/osamakhalili?label=Followers&style=flat-square&color=0f2027&logo=github" alt="followers" />
-<img src="https://img.shields.io/badge/Status-Shipping%20products-36BCF7?style=flat-square" alt="status" />
+<img src="https://komarev.com/ghpvc/?username=osamakhalili&label=visitors&color=1E293B&style=flat-square" alt="Profile visitors" />
+<img src="https://img.shields.io/github/followers/osamakhalili?label=followers&style=flat-square&color=1E293B&labelColor=0B1120&logo=github&logoColor=22D3EE" alt="Followers" />
+<img src="https://img.shields.io/badge/status-building%20products-1E293B?style=flat-square&labelColor=0B1120&logo=statuspage&logoColor=22D3EE" alt="Status" />
+
+<br/><br/>
+
+<a href="#work">Work</a> &nbsp;·&nbsp;
+<a href="#toolbox">Toolbox</a> &nbsp;·&nbsp;
+<a href="#journey">Journey</a> &nbsp;·&nbsp;
+<a href="#telemetry">Stats</a> &nbsp;·&nbsp;
+<a href="#connect">Connect</a>
 
 </div>
 
-<!-- ─────────────────────── TERMINAL BIO ─────────────────────── -->
+<!-- ============================== INTRO ============================== -->
+<br/>
 
-```bash
-osama@stockholm:~$ whoami
-```
-
-```yaml
-name:         Osama Khalili
-role:         Full-Stack Developer
-location:     Sweden 🇸🇪  (UTC+1/+2, powered by fika ☕)
-origin_story: Java backend → TypeScript full-stack → product engineering
-focus:
-  - Production web apps (Next.js, React, TypeScript)
-  - Type-safe APIs with tRPC, Prisma and PostgreSQL/MySQL
-  - Payments (Stripe, Swish), authentication and role-based access
-  - Data pipelines and multilingual content systems
-currently:    building driving-school platforms, commerce systems and school management tools
-motto:        "Ship it, measure it, improve it."
-```
-
-<!-- ─────────────────────── JOURNEY ─────────────────────── -->
-
-## 🗺️ The Path So Far
-
-```mermaid
-flowchart LR
-    A["☕ Java<br/>Backend"] --> B["⚛️ React<br/>Frontend"]
-    B --> C["🔷 Next.js<br/>Full-Stack"]
-    C --> D["💳 Payments<br/>& Auth"]
-    D --> E["🚀 Product<br/>Engineering<br/><i>you are here</i>"]
-    style E fill:#36BCF7,stroke:#0f2027,color:#0f2027,stroke-width:2px
-```
-
-> Every layer taught me something: backend taught me structure, frontend taught me empathy for the user, and shipping taught me that done is better than perfect.
-
-<!-- ─────────────────────── TECH ARSENAL ─────────────────────── -->
-
-## 🎒 Inventory
+<p align="center">
+  I turn messy operational workflows into calm, type-safe web products.<br/>
+  <sub>Driving schools &nbsp;·&nbsp; commerce &nbsp;·&nbsp; education &nbsp;·&nbsp; media</sub>
+</p>
 
 <div align="center">
-
-| Slot | Equipped |
-|:---:|:---|
-| ☕ **Languages** | <img src="https://skillicons.dev/icons?i=java,ts,js,html,css&theme=dark" /> |
-| 🧩 **Frameworks** | <img src="https://skillicons.dev/icons?i=nextjs,react,nodejs,spring,tailwind,vite&theme=dark" /> |
-| 🗄️ **Data** | <img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,redis,prisma&theme=dark" /> |
-| 💳 **Payments & Auth** | ![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white) ![Swish](https://img.shields.io/badge/Swish-00A651?style=flat-square&logo=swish&logoColor=white) ![Auth.js](https://img.shields.io/badge/Auth.js-000000?style=flat-square&logo=auth0&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white) ![Argon2](https://img.shields.io/badge/Argon2id-5A3E8E?style=flat-square&logo=letsencrypt&logoColor=white) |
-| 🛠️ **Toolbelt** | <img src="https://skillicons.dev/icons?i=git,github,docker,vercel,linux,vscode,vitest,playwright&theme=dark" /> |
-| 🔍 **Infra & Search** | ![Meilisearch](https://img.shields.io/badge/Meilisearch-FF5CAA?style=flat-square&logo=meilisearch&logoColor=white) ![Sentry](https://img.shields.io/badge/Sentry-362D59?style=flat-square&logo=sentry&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel_Cron-000000?style=flat-square&logo=vercel&logoColor=white) ![S3](https://img.shields.io/badge/AWS_S3-232F3E?style=flat-square&logo=amazons3&logoColor=white) |
-
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/osamakhalili/osamakhalili/main/assets/stats-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/osamakhalili/osamakhalili/main/assets/stats-light.svg" />
+    <img src="https://raw.githubusercontent.com/osamakhalili/osamakhalili/main/assets/stats-dark.svg" width="100%" alt="4 platforms built, 4,651 exam questions, 272 videos served, 6 languages" />
+  </picture>
 </div>
 
-<!-- ─────────────────────── PROJECTS ─────────────────────── -->
+<!-- ============================== WORK ============================== -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/osamakhalili/osamakhalili/main/assets/divider.svg" width="100%" alt="" />
+</div>
 
-## 🚀 Projects I've Built
+<a name="work"></a>
 
-> Most of my recent work is private or client work, so these are case studies rather than public repositories.
+<div align="center">
+  <sub><b>01 · SELECTED WORK</b></sub>
+  <h2>Four platforms, four different problems</h2>
+  <p><sub>Recent product work is private or client-owned, so these are case studies rather than public repositories.</sub></p>
+</div>
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🚗 Xtrafikskola
-Driving-school management platform covering the full journey from first lesson to licence: courses, calendar booking, evaluations, receipts and reports.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/osamakhalili/osamakhalili/main/assets/icon-car.svg" width="52" alt="" />
+</p>
+
+<h3 align="center">Xtrafikskola</h3>
+<p align="center"><sub>DRIVING-SCHOOL OPERATIONS</sub></p>
+
+The full journey from first lesson to licence — courses, booking, evaluations, payments and reporting in one platform.
+
 - Student, instructor and admin dashboards
-- STR progress tracking (15 moments)
-- Stripe + Swish payments with idempotent webhooks
-- SSE notifications, PWA, Swedish/Arabic (RTL)
+- STR progress tracking across 15 moments
+- Stripe + Swish with idempotent webhooks
+- PWA, SSE notifications, Swedish/Arabic RTL
 - Vitest + Playwright test suites
 
-`Next.js 16` `React 19` `tRPC` `Prisma` `PostgreSQL`
+<p align="center">
+  <code>Next.js 16</code> <code>React 19</code> <code>tRPC</code> <code>Prisma</code> <code>PostgreSQL</code>
+</p>
 
 </td>
 <td width="50%" valign="top">
 
-### 🗓️ Gbg Halkbana
-Booking platform for driving schools and partner schools, from public course pages to check-in at the venue.
-- Public booking portal + Risk 1 / Risk 2 pages
+<p align="center">
+  <img src="https://raw.githubusercontent.com/osamakhalili/osamakhalili/main/assets/icon-calendar.svg" width="52" alt="" />
+</p>
+
+<h3 align="center">Gbg Halkbana</h3>
+<p align="center"><sub>BOOKING &amp; CHECK-IN</sub></p>
+
+A booking platform for driving schools and partner schools, from public course pages to QR check-in at the venue.
+
+- Public portal + Risk 1 / Risk 2 pages
 - Admin, instructor and partner-school portals
 - QR check-in, PDF invoices, self-service rescheduling
 - Stripe + Swish + school invoicing
 - Vercel Cron reminders and monthly invoicing
 
-`Next.js` `tRPC` `Prisma` `Auth.js` `Stripe`
+<p align="center">
+  <code>Next.js</code> <code>tRPC</code> <code>Prisma</code> <code>Auth.js</code> <code>Stripe</code>
+</p>
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 🛍️ Nexus Commerce
-Multilingual e-commerce platform with customer, vendor and admin experiences in one system.
-- 36 Prisma models across catalog, orders, vendors and CMS
+<p align="center">
+  <img src="https://raw.githubusercontent.com/osamakhalili/osamakhalili/main/assets/icon-bag.svg" width="52" alt="" />
+</p>
+
+<h3 align="center">Nexus Commerce</h3>
+<p align="center"><sub>MULTILINGUAL COMMERCE</sub></p>
+
+Customer, vendor and admin experiences in one system — catalog, orders, payments and content in two languages.
+
+- 36 Prisma models across catalog, orders and CMS
 - Stripe checkout, gift cards and PDF invoices
 - Better Auth with OAuth + OTP
-- Meilisearch, inventory alerts and review moderation
+- Meilisearch, inventory alerts, review moderation
 - Arabic/English content with 2,000+ translations
 
-`Next.js 15` `TypeScript` `PostgreSQL` `tRPC`
+<p align="center">
+  <code>Next.js 15</code> <code>TypeScript</code> <code>tRPC</code> <code>PostgreSQL</code>
+</p>
 
 </td>
 <td width="50%" valign="top">
 
-### 📖 Alhuda Center
-Management system for a Quran school: students, teachers, Halaka scheduling, attendance, progress and finance.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/osamakhalili/osamakhalili/main/assets/icon-book.svg" width="52" alt="" />
+</p>
+
+<h3 align="center">Alhuda Center</h3>
+<p align="center"><sub>QURAN SCHOOL MANAGEMENT</sub></p>
+
+Students, teachers, Halaka scheduling, attendance, progress and finance for a Quran school — with three distinct portals.
+
 - Admin, teacher and parent portals
 - Quran/Nourania progress and homework evaluation
 - Halaka scheduling and attendance tracking
 - Payments, terms and educational-year reporting
 - Self-issued JWT + Argon2id, S3 uploads
 
-`React Router 7` `MySQL` `Drizzle` `Tailwind`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 📤 TeoriExporter Pro
-Chrome extension (Manifest V3) that extracts Swedish driving-theory content into clean, portable study material.
-- Works with TeoriCentralen, Körkortsboken and Trafiko
-- Markdown/JSON export with images
-- Background crawl mode across chapters
-- Reading themes, search and progress UI
-- 120 KB content script, zero backend
-
-`Chrome MV3` `JavaScript` `Data extraction`
-
-</td>
-<td width="50%" valign="top">
-
-### 📚 Theory Question Bank
-Structured question bank for Swedish driving-licence theory across taxi, bus, truck and professional competence categories.
-- 4,651 questions across 15 datasets and 112 quizzes
-- Swedish and Arabic variants with a shared schema
-- 1,853 image and 2,508 audio references
-- Normalised JSON model ready for any quiz client
-- Encoding, duplicate and broken-media cleanup
-
-`JSON` `Data modelling` `Content pipeline`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🎬 Video Library Server
-Self-hosted streaming server for a driving-school video library, designed for a classroom LAN.
-- HMAC-signed streaming URLs with 12-hour expiry
-- HTTP Range support for seeking
-- Auto-refresh catalog every 30 seconds
-- 272 videos across 6 languages
-- Built-in question pages (150 Arabic / 210 Swedish)
-
-`Node.js` `HTTP` `Streaming`
-
-</td>
-<td width="50%" valign="top">
-
-### 🌐 xTrafik & xTruck
-SEO-focused landing sites for a driving school and a truck-training programme in Gothenburg.
-- Hand-built static HTML with structured metadata
-- Sitemap, robots.txt and 404 pages
-- Apache `.htaccess` routing and caching
-- Swedish, English and Arabic audience targeting
-
-`HTML` `CSS` `SEO` `Apache`
+<p align="center">
+  <code>React Router 7</code> <code>MySQL</code> <code>Drizzle</code> <code>Tailwind</code>
+</p>
 
 </td>
 </tr>
 </table>
 
-<!-- ─────────────────────── ACHIEVEMENTS ─────────────────────── -->
+<br/>
 
-## 🏆 Achievements Unlocked
+<div align="center">
+  <sub><b>ALSO BUILT</b></sub>
+</div>
 
-```diff
-+ [UNLOCKED] Platform Builder .... 4 production-grade platforms from database to UI
-+ [UNLOCKED] Payments Engineer ... Stripe + Swish, webhooks, invoices and QR check-in
-+ [UNLOCKED] Data Engineer ....... 4,651-question bilingual exam bank
-+ [UNLOCKED] Automation .......... Chrome crawler, CI pipelines, cron jobs, signed media URLs
-+ [UNLOCKED] Multilingual ........ Swedish, Arabic (RTL), English and Somali
-- [LOCKED]   ??? ................. collaborate with me to find out
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<p><img src="https://raw.githubusercontent.com/osamakhalili/osamakhalili/main/assets/icon-download.svg" width="22" align="middle" alt="" /> &nbsp;<b>TeoriExporter Pro</b></p>
+
+A Chrome extension that turns Swedish driving-theory content into clean, portable study material. Works with TeoriCentralen, Körkortsboken and Trafiko; Markdown/JSON export, background crawl mode and reading themes.
+
+<sub><code>Chrome MV3</code> <code>JavaScript</code> <code>Data extraction</code></sub>
+
+</td>
+<td width="50%" valign="top">
+
+<p><img src="https://raw.githubusercontent.com/osamakhalili/osamakhalili/main/assets/icon-data.svg" width="22" align="middle" alt="" /> &nbsp;<b>Theory Question Bank</b></p>
+
+A structured, bilingual question bank for Swedish driving-licence theory across taxi, bus, truck and professional competence categories — 4,651 questions, 112 quizzes, 1,853 images and 2,508 audio references.
+
+<sub><code>JSON</code> <code>Data modelling</code> <code>Content pipeline</code></sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<p><img src="https://raw.githubusercontent.com/osamakhalili/osamakhalili/main/assets/icon-play.svg" width="22" align="middle" alt="" /> &nbsp;<b>Video Library Server</b></p>
+
+A self-hosted streaming server for a classroom LAN: HMAC-signed URLs with 12-hour expiry, HTTP Range seeking, a catalog that refreshes every 30 seconds, and 272 videos across six languages.
+
+<sub><code>Node.js</code> <code>HTTP</code> <code>Streaming</code></sub>
+
+</td>
+<td width="50%" valign="top">
+
+<p><img src="https://raw.githubusercontent.com/osamakhalili/osamakhalili/main/assets/icon-globe.svg" width="22" align="middle" alt="" /> &nbsp;<b>xTrafik &amp; xTruck</b></p>
+
+SEO-focused landing sites for a driving school and a truck-training programme in Gothenburg — hand-built static HTML, structured metadata, sitemaps and Apache routing for three audiences.
+
+<sub><code>HTML</code> <code>CSS</code> <code>SEO</code></sub>
+
+</td>
+</tr>
+</table>
+
+<!-- ============================== TOOLBOX ============================== -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/osamakhalili/osamakhalili/main/assets/divider.svg" width="100%" alt="" />
+</div>
+
+<a name="toolbox"></a>
+
+<div align="center">
+  <sub><b>02 · TOOLBOX</b></sub>
+  <h2>Batteries included, opinions optional</h2>
+</div>
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=ts,js,java,react,nextjs,nodejs,spring,tailwind,prisma,postgres,mysql,redis,docker,git,github,vercel,vitest,playwright&theme=dark&perline=9" alt="TypeScript, JavaScript, Java, React, Next.js, Node.js, Spring, Tailwind, Prisma, PostgreSQL, MySQL, Redis, Docker, Git, GitHub, Vercel, Vitest, Playwright" />
+
+</div>
+
+<br/>
+
+| **Frontend** | **Backend &amp; data** | **Platform** |
+|:---|:---|:---|
+| React 19 · Next.js 16 · React Router 7 · Tailwind · PWA · SSE | tRPC · REST · Prisma · Drizzle · PostgreSQL · MySQL · Redis | Stripe · Swish · Better Auth · Auth.js · JWT · Argon2id · S3 · Vercel |
+| Accessible interfaces, RTL layouts, design systems | Schema design, migrations, background jobs, search | Payments, webhooks, invoicing, CI/CD, observability |
+
+<!-- ============================== JOURNEY ============================== -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/osamakhalili/osamakhalili/main/assets/divider.svg" width="100%" alt="" />
+</div>
+
+<a name="journey"></a>
+
+<div align="center">
+  <sub><b>03 · JOURNEY</b></sub>
+  <h2>From backend structure to product empathy</h2>
+</div>
+
+```mermaid
+flowchart LR
+    A["Java & Spring<br/>REST · JPA"] --> B["React & Next.js<br/>interfaces"]
+    B --> C["Type-safe platforms<br/>tRPC · Prisma"]
+    C --> D["Products<br/>payments · auth · ops"]
 ```
 
-<!-- ─────────────────────── STATS ─────────────────────── -->
+<p align="center">
+  <sub>Backend taught me structure. Frontend taught me empathy. Shipping taught me that done is better than perfect.</sub>
+</p>
 
-## 📡 Telemetry
+<!-- ============================== ACHIEVEMENTS ============================== -->
+<a name="achievements"></a>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=osamakhalili&show_icons=true&theme=tokyonight&count_private=true&hide_border=true&bg_color=0d1117&title_color=36BCF7&icon_color=36BCF7" height="170" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=osamakhalili&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=36BCF7" height="170" alt="Top Languages" />
+  <sub><b>04 · TRACK RECORD</b></sub>
+  <h2>What I have shipped</h2>
+</div>
+
+```diff
++ BUILT      four platforms — schema, API, UI and deployment
++ PAYMENTS   Stripe + Swish, idempotent webhooks, PDF invoices
++ DATA       4,651-question bilingual exam bank with media pipeline
++ SYSTEMS    QR check-in, cron invoicing, signed media URLs
++ CRAFT      type-safe end to end, tested with Vitest + Playwright
+- NEXT       your team's next product?
+```
+
+<!-- ============================== TELEMETRY ============================== -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/osamakhalili/osamakhalili/main/assets/divider.svg" width="100%" alt="" />
+</div>
+
+<a name="telemetry"></a>
+
+<div align="center">
+  <sub><b>05 · TELEMETRY</b></sub>
+  <h2>Public activity, private ambition</h2>
+  <p><sub>Most recent work lives in private repositories — the graphs below only tell part of the story.</sub></p>
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=osamakhalili&theme=tokyonight&hide_border=true&background=0d1117&ring=36BCF7&fire=36BCF7&currStreakLabel=36BCF7" alt="GitHub Streak" />
+  <img src="https://github-readme-stats.vercel.app/api?username=osamakhalili&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true&bg_color=0B1120&title_color=A78BFA&icon_color=22D3EE&text_color=94A3B8&border_radius=16" height="180" alt="GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=osamakhalili&layout=compact&langs_count=8&hide_border=true&bg_color=0B1120&title_color=A78BFA&text_color=94A3B8&border_radius=16" height="180" alt="Top languages" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=osamakhalili&bg_color=0d1117&color=36BCF7&line=36BCF7&point=ffffff&area=true&hide_border=true" width="95%" alt="Contribution Graph" />
+  <img src="https://streak-stats.demolab.com/?user=osamakhalili&hide_border=true&background=0B1120&ring=8B5CF6&fire=22D3EE&currStreakLabel=A78BFA&sideLabels=94A3B8&dates=64748B&currStreakNum=E2E8F0&sideNums=E2E8F0&border_radius=16" alt="GitHub streak" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=osamakhalili&bg_color=0B1120&color=22D3EE&line=8B5CF6&point=E2E8F0&area=true&hide_border=true&custom_title=Contribution%20activity" width="95%" alt="Contribution activity graph" />
 </div>
 
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/osamakhalili/osamakhalili/output/github-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/osamakhalili/osamakhalili/output/github-snake.svg" />
-    <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/osamakhalili/osamakhalili/output/github-snake.svg" />
+    <img alt="A snake eating my contribution graph" src="https://raw.githubusercontent.com/osamakhalili/osamakhalili/output/github-snake.svg" />
   </picture>
 </div>
 
-<!-- ─────────────────────── PUZZLE ─────────────────────── -->
+<!-- ============================== PRINCIPLES ============================== -->
+<a name="principles"></a>
 
-## 🧩 Side Quest: The Type Alchemist
+<div align="center">
+  <sub><b>06 · HOW I WORK</b></sub>
+  <h2>Three rules I keep coming back to</h2>
+</div>
 
-> *A traveler hands you the scroll* `"Hello World"` *and asks for* `"dlroW olleH"` — in a single TypeScript type.*
+| **Model first** | **Types are contracts** | **Ship the whole slice** |
+|:---|:---|:---|
+| Schema, permissions and state transitions before pixels. A good data model makes the UI obvious. | If it compiles, it should behave. End-to-end types remove a whole class of bugs and meetings. | Auth, payments, notifications and ops are part of the feature — not a follow-up ticket. |
+
+<!-- ============================== SIDE QUEST ============================== -->
+<a name="side-quest"></a>
+
+<div align="center">
+  <sub><b>07 · SIDE QUEST</b></sub>
+  <h2>The type alchemist</h2>
+  <p><em>A traveler hands you <code>"Hello World"</code> and asks for <code>"dlroW olleH"</code> — in a single TypeScript type.</em></p>
+</div>
 
 <details>
-<summary><b>⚡ Level 1 — The Recursive Mage</b></summary>
+<summary><b>Level 1 — the recursive mage</b></summary>
 
 ```ts
 type Reverse<S extends string> =
@@ -242,7 +327,7 @@ Template literal types + recursion. Elegant, and the compiler does the work.
 </details>
 
 <details>
-<summary><b>🔮 Level 2 — The Accumulator</b></summary>
+<summary><b>Level 2 — the accumulator</b></summary>
 
 ```ts
 type Reverse<S extends string, Acc extends string = ""> =
@@ -252,7 +337,7 @@ Tail-recursive form: each character is pushed onto the front of the accumulator.
 </details>
 
 <details>
-<summary><b>🧠 Boss Level — The Tuple Weaver</b></summary>
+<summary><b>Boss level — the tuple weaver</b></summary>
 
 ```ts
 type Split<S extends string> =
@@ -263,49 +348,58 @@ type Join<T extends string[]> =
     ? `${Head}${Join<Tail>}`
     : "";
 
-type Reverse<S extends string> = Join<ReverseTuple<Split<S>>>;
 type ReverseTuple<T extends string[]> =
   T extends [infer Head extends string, ...infer Tail extends string[]]
     ? [...ReverseTuple<Tail>, Head]
     : [];
+
+type Reverse<S extends string> = Join<ReverseTuple<Split<S>>>;
 ```
 Split into a tuple, reverse the tuple, join it back. Type-level composition at its finest.
 </details>
 
-**Found a weirder spell?** Open an issue or PR — the most creative one gets added here with credit. ✨
+<p align="center"><sub>Found a weirder spell? Open an issue — the most creative one gets added here with credit.</sub></p>
 
-<!-- ─────────────────────── OFFLINE ─────────────────────── -->
-
-## 🌙 When I'm Offline
+<!-- ============================== CURRENTLY ============================== -->
+<a name="currently"></a>
 
 <div align="center">
-
-| 🛠️ | 📚 | ☕ |
-|:---:|:---:|:---:|
-| **Build mode**<br/>Side projects and refactoring | **Learn mode**<br/>Deep dives into new stacks | **Fika mode**<br/>Coffee, code reviews and good conversations |
-
+  <sub><b>08 · CURRENTLY</b></sub>
+  <h2>Now, next, open</h2>
 </div>
 
-<!-- ─────────────────────── CONNECT ─────────────────────── -->
+| **Building** | **Exploring** | **Open to** |
+|:---|:---|:---|
+| Xtrafikskola and Gbg Halkbana — booking, payments and school operations. | Edge rendering, better DX patterns and calmer UI systems. | Product engineering, collaborations and hard problems. |
 
-## 🔌 Open a Connection
+<!-- ============================== CONNECT ============================== -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/osamakhalili/osamakhalili/main/assets/divider.svg" width="100%" alt="" />
+</div>
 
-```bash
-osama@stockholm:~$ ssh you@collaboration --port=always-open
-```
+<a name="connect"></a>
 
 <div align="center">
+  <sub><b>09 · CONNECT</b></sub>
+  <h2>Let's build something useful</h2>
+</div>
 
-[![GitHub](https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=36BCF7)](https://github.com/osamakhalili)
+<p align="center">
+  <a href="https://github.com/osamakhalili">
+    <img src="https://img.shields.io/badge/GitHub-osamakhalili-1E293B?style=for-the-badge&logo=github&logoColor=22D3EE&labelColor=0B1120" alt="GitHub — osamakhalili" />
+  </a>
+</p>
+
+<p align="center"><sub>Driving schools · commerce · education · media</sub></p>
 
 <br/>
 
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random dev quote" />
-
-<br/>
-
-**`// Building products that people actually use`**
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:36BCF7,50:203a43,100:0f2027&height=120&section=footer" width="100%" alt="footer" />
-
+<div align="center">
+  <a href="https://github.com/osamakhalili">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/osamakhalili/osamakhalili/main/assets/footer.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/osamakhalili/osamakhalili/main/assets/footer-light.svg" />
+      <img src="https://raw.githubusercontent.com/osamakhalili/osamakhalili/main/assets/footer.svg" width="100%" alt="Let's build something useful — github.com/osamakhalili" />
+    </picture>
+  </a>
 </div>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="Commerce">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#A78BFA"/><stop offset="1" stop-color="#22D3EE"/></linearGradient></defs>
+  <rect x="1" y="1" width="62" height="62" rx="16" fill="#0F172A" stroke="#1E293B"/>
+  <g fill="none" stroke="url(#g)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M20 25h24l-2 22H22z"/>
+    <path d="M26 25v-4a6 6 0 0 1 12 0v4"/>
+    <path d="M27 33h10"/>
+  </g>
+</svg>
