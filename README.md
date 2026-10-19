@@ -237,8 +237,7 @@ SEO-focused landing sites for a driving school and a truck-training programme in
 graph LR
     A[Java backend] --> B[React frontend]
     B --> C[TypeScript platforms]
-    C --> D[Payments and authentication]
-    D --> E[Product engineering]
+    C --> D[Product engineering]
 ```
 
 <p align="center">
@@ -274,16 +273,19 @@ graph LR
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=osamakhalili&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true&bg_color=0B1120&title_color=A78BFA&icon_color=22D3EE&text_color=94A3B8&border_radius=16" height="180" alt="GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=osamakhalili&layout=compact&langs_count=8&hide_border=true&bg_color=0B1120&title_color=A78BFA&text_color=94A3B8&border_radius=16" height="180" alt="Top languages" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=osamakhalili&hide_border=true&background=0B1120&ring=8B5CF6&fire=22D3EE&currStreakLabel=A78BFA&sideLabels=94A3B8&dates=64748B&currStreakNum=E2E8F0&sideNums=E2E8F0&border_radius=16" />
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=osamakhalili&hide_border=true&background=F8FAFC&ring=7C3AED&fire=0891B2&currStreakLabel=6D28D9&sideLabels=475569&dates=94A3B8&currStreakNum=0F172A&sideNums=0F172A&border_radius=16" />
+    <img src="https://streak-stats.demolab.com/?user=osamakhalili&hide_border=true&background=F8FAFC&ring=7C3AED&fire=0891B2&currStreakLabel=6D28D9&sideLabels=475569&dates=94A3B8&currStreakNum=0F172A&sideNums=0F172A&border_radius=16" alt="GitHub streak" />
+  </picture>
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=osamakhalili&hide_border=true&background=0B1120&ring=8B5CF6&fire=22D3EE&currStreakLabel=A78BFA&sideLabels=94A3B8&dates=64748B&currStreakNum=E2E8F0&sideNums=E2E8F0&border_radius=16" alt="GitHub streak" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=osamakhalili&bg_color=0B1120&color=22D3EE&line=8B5CF6&point=E2E8F0&area=true&hide_border=true&custom_title=Contribution%20activity" width="95%" alt="Contribution activity graph" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=osamakhalili&bg_color=0B1120&color=22D3EE&line=8B5CF6&point=E2E8F0&area=true&hide_border=true&custom_title=Contribution%20activity" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=osamakhalili&bg_color=F8FAFC&color=0891B2&line=7C3AED&point=0F172A&area=true&hide_border=true&custom_title=Contribution%20activity" />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=osamakhalili&bg_color=F8FAFC&color=0891B2&line=7C3AED&point=0F172A&area=true&hide_border=true&custom_title=Contribution%20activity" width="95%" alt="Contribution activity graph" />
+  </picture>
 </div>
 
 <div align="center">
@@ -374,7 +376,7 @@ Split into a tuple, reverse the tuple, join it back. Type-level composition at i
 
 <div align="center">
   <sub><b>09 · CONNECT</b></sub>
-  <h2>Let's build something useful</h2>
+  <h2>Open to good problems</h2>
 </div>
 
 <p align="center">
