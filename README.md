@@ -1,134 +1,303 @@
-# Osama Khalili
+<!-- ─────────────────────── HEADER ─────────────────────── -->
+<div align="center">
 
-**Java Backend Developer** — REST APIs, layered architecture, relational persistence, and CI/CD.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:36BCF7&height=220&section=header&text=Osama&fontSize=80&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20Developer%20%E2%80%A2%20Sweden%20%F0%9F%87%B8%F0%9F%87%AA&descAlignY=60&descSize=18&animation=fadeIn" width="100%" alt="header" />
 
-I build maintainable server-side applications with Java and Spring Boot, and I care about clean separation of concerns, meaningful error handling, and tests that actually verify behavior. My work spans Java EE (JAX-RS/JPA/CDI), Spring Boot REST and MVC applications, JavaFX desktop apps, and full-stack JavaScript/TypeScript.
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=900&color=36BCF7&center=true&vCenter=true&width=560&lines=%3E+booting+osama.exe+...;Full-Stack+Developer+%E2%9A%A1;Next.js+%2B+React+%2B+TypeScript;tRPC+%2B+Prisma+%2B+PostgreSQL;Payments%2C+Auth+%26+Dashboards+%F0%9F%92%B3;Ship+it%2C+measure+it%2C+improve+it." alt="Typing SVG" />
+</a>
 
----
+<br/>
 
-## Tech Stack
+<img src="https://komarev.com/ghpvc/?username=osamakhalili&label=Profile%20visitors&color=36BCF7&style=flat-square" alt="visitors" />
+<img src="https://img.shields.io/github/followers/osamakhalili?label=Followers&style=flat-square&color=0f2027&logo=github" alt="followers" />
+<img src="https://img.shields.io/badge/Status-Shipping%20products-36BCF7?style=flat-square" alt="status" />
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![Hibernate](https://img.shields.io/badge/JPA_/_Hibernate-59666C?style=flat-square&logo=hibernate&logoColor=white)
-![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white)
-![JUnit 5](https://img.shields.io/badge/JUnit_5-25A162?style=flat-square&logo=junit5&logoColor=white)
-![REST](https://img.shields.io/badge/REST_APIs-005571?style=flat-square&logo=fastapi&logoColor=white)
-![JavaFX](https://img.shields.io/badge/JavaFX-FF6600?style=flat-square&logo=openjdk&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+</div>
 
-**Core:** Java 11/16, Spring Boot, Spring Data JPA, Hibernate, JAX-RS, CDI, JPA, Thymeleaf, Maven, JUnit 5, Mockito
-**Infrastructure:** Docker, Jenkins pipelines, Maven build lifecycle, WildFly / application servers
-**Frontend:** Next.js, React, TypeScript, JavaScript, HTML5, CSS3, Thymeleaf templates
-**Data:** MySQL, relational modelling, JSON data pipelines
+<!-- ─────────────────────── TERMINAL BIO ─────────────────────── -->
 
----
+```bash
+osama@stockholm:~$ whoami
+```
 
-## Featured Projects
+```yaml
+name:         Osama Khalili
+role:         Full-Stack Developer
+location:     Sweden 🇸🇪  (UTC+1/+2, powered by fika ☕)
+origin_story: Java backend → TypeScript full-stack → product engineering
+focus:
+  - Production web apps (Next.js, React, TypeScript)
+  - Type-safe APIs with tRPC, Prisma and PostgreSQL/MySQL
+  - Payments (Stripe, Swish), authentication and role-based access
+  - Data pipelines and multilingual content systems
+currently:    building driving-school platforms, commerce systems and school management tools
+motto:        "Ship it, measure it, improve it."
+```
 
-### [student-management-system](https://github.com/osamakhalili/student-management-system)
-Java EE REST API built with **JAX-RS + JPA + CDI** and packaged as a WAR for deployment on an application server.
-- Full CRUD surface: `GET`, `POST`, `PUT`, `PATCH`, `DELETE` plus lookup by last name
-- Layered design: `entity` → `service` → `rest`, with a dedicated `JAXRSConfiguration` and `persistence.xml`
-- Email uniqueness enforced at the persistence layer and translated into explicit HTTP responses
-- Consistent error contracts: `404` with descriptive plain-text bodies instead of stack traces
-- Built in a two-person team; documented every endpoint and payload in the README
+<!-- ─────────────────────── JOURNEY ─────────────────────── -->
 
-**Stack:** `Java` `JAX-RS` `JPA` `CDI` `Maven` `WildFly`
+## 🗺️ The Path So Far
 
----
+```mermaid
+flowchart LR
+    A["☕ Java<br/>Backend"] --> B["⚛️ React<br/>Frontend"]
+    B --> C["🔷 Next.js<br/>Full-Stack"]
+    C --> D["💳 Payments<br/>& Auth"]
+    D --> E["🚀 Product<br/>Engineering<br/><i>you are here</i>"]
+    style E fill:#36BCF7,stroke:#0f2027,color:#0f2027,stroke-width:2px
+```
 
-### [book](https://github.com/osamakhalili/book)
-A complete bookstore split into a **Spring Boot REST backend** and a **vanilla JavaScript frontend**.
-- `BookController` exposes list, by-id, create, update, and delete endpoints under `/book`
-- Constructor injection with a service layer on top of a `JpaRepository`
-- `@CrossOrigin` configuration so the static frontend can consume the API directly
-- Custom `UserNotFoundException` mapped to a clean API error
-- Frontend ships a customer catalog (`index.html`) and an admin panel (`admin.html`) with their own CSS/JS
+> Every layer taught me something: backend taught me structure, frontend taught me empathy for the user, and shipping taught me that done is better than perfect.
 
-**Stack:** `Java` `Spring Boot` `Spring Data JPA` `REST` `JavaScript` `HTML/CSS`
+<!-- ─────────────────────── TECH ARSENAL ─────────────────────── -->
 
----
+## 🎒 Inventory
 
-### [pizzaApp2](https://github.com/osamakhalili/pizzaApp2) · [PizzaApp](https://github.com/osamakhalili/PizzaApp)
-The same domain implemented twice, which is exactly why it is useful: first as a REST API, then as a server-rendered application.
-- **PizzaApp:** Spring Boot REST service with controller/service/repository layers and `PATCH` support for partial updates
-- **pizzaApp2:** Spring MVC + Thymeleaf with `index`, `new_pizza`, and `update_pizza` views backed by the same CRUD model
-- Both use Spring Data JPA persistence and Maven builds
+<div align="center">
 
-**Stack:** `Java` `Spring Boot` `Spring MVC` `Thymeleaf` `JPA` `Maven`
+| Slot | Equipped |
+|:---:|:---|
+| ☕ **Languages** | <img src="https://skillicons.dev/icons?i=java,ts,js,html,css&theme=dark" /> |
+| 🧩 **Frameworks** | <img src="https://skillicons.dev/icons?i=nextjs,react,nodejs,spring,tailwind,vite&theme=dark" /> |
+| 🗄️ **Data** | <img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,redis,prisma&theme=dark" /> |
+| 💳 **Payments & Auth** | ![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white) ![Swish](https://img.shields.io/badge/Swish-00A651?style=flat-square&logo=swish&logoColor=white) ![Auth.js](https://img.shields.io/badge/Auth.js-000000?style=flat-square&logo=auth0&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white) ![Argon2](https://img.shields.io/badge/Argon2id-5A3E8E?style=flat-square&logo=letsencrypt&logoColor=white) |
+| 🛠️ **Toolbelt** | <img src="https://skillicons.dev/icons?i=git,github,docker,vercel,linux,vscode,vitest,playwright&theme=dark" /> |
+| 🔍 **Infra & Search** | ![Meilisearch](https://img.shields.io/badge/Meilisearch-FF5CAA?style=flat-square&logo=meilisearch&logoColor=white) ![Sentry](https://img.shields.io/badge/Sentry-362D59?style=flat-square&logo=sentry&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel_Cron-000000?style=flat-square&logo=vercel&logoColor=white) ![S3](https://img.shields.io/badge/AWS_S3-232F3E?style=flat-square&logo=amazons3&logoColor=white) |
 
----
+</div>
 
-### [GameOfLife2](https://github.com/osamakhalili/GameOfLife2)
-Conway's Game of Life as a **JavaFX desktop application** with an explicit MVC split.
-- `Grid` and `GridCell` hold the simulation state and neighbour logic, independent of the UI
-- `AppController` binds the model to the FXML view; `App` handles application startup
-- Java modules (`module-info.java`) and a Maven build with JavaFX, FormsFX, and TilesFX dependencies
-- Unit tests for the grid rules with JUnit 4
+<!-- ─────────────────────── PROJECTS ─────────────────────── -->
 
-**Stack:** `Java` `JavaFX` `FXML` `Maven` `JUnit`
+## 🚀 Projects I've Built
 
----
+> Most of my recent work is private or client work, so these are case studies rather than public repositories.
 
-### [mobile-project1](https://github.com/osamakhalili/mobile-project1)
-A Maven application wired into a **complete CI/CD pipeline** — the project where build automation was the point.
-- `Jenkinsfile` with staged pipeline: checkout → compile → `mvn verify` / `mvn test` → package → Docker build → Docker Hub push
-- Dockerfile based on `adoptopenjdk:16-jre`, exposing the application port and running the packaged JAR
-- Unit tests with JUnit 5 and Mockito
-- Demonstrates the full path from commit to published container image
+<table>
+<tr>
+<td width="50%" valign="top">
 
-**Stack:** `Java` `Maven` `Jenkins` `Docker` `JUnit 5` `Mockito`
+### 🚗 Xtrafikskola
+Driving-school management platform covering the full journey from first lesson to licence: courses, calendar booking, evaluations, receipts and reports.
+- Student, instructor and admin dashboards
+- STR progress tracking (15 moments)
+- Stripe + Swish payments with idempotent webhooks
+- SSE notifications, PWA, Swedish/Arabic (RTL)
+- Vitest + Playwright test suites
 
----
+`Next.js 16` `React 19` `tRPC` `Prisma` `PostgreSQL`
 
-### [java_lab2](https://github.com/osamakhalili/java_lab2)
-A **test-driven** String Calculator kata, written test-first with JUnit 5.
-- Handles empty input, single and multiple numbers, whitespace, and newline separators
-- Configurable delimiters, including multi-character delimiters
-- Rejects negative numbers with a descriptive exception listing every offending value
-- Ignores values above 1000, matching the kata specification
-- Fifteen tests, each named with `@DisplayName` for the behaviour it proves
+</td>
+<td width="50%" valign="top">
 
-**Stack:** `Java` `JUnit 5` `TDD`
+### 🗓️ Gbg Halkbana
+Booking platform for driving schools and partner schools, from public course pages to check-in at the venue.
+- Public booking portal + Risk 1 / Risk 2 pages
+- Admin, instructor and partner-school portals
+- QR check-in, PDF invoices, self-service rescheduling
+- Stripe + Swish + school invoicing
+- Vercel Cron reminders and monthly invoicing
 
----
+`Next.js` `tRPC` `Prisma` `Auth.js` `Stripe`
 
-## Additional Experience
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-**Driving-Theory Question Bank (data engineering & content pipeline)**
-Built and maintained a structured question bank for Swedish driving-licence theory (taxi, bus, truck, and professional competence categories).
-- **4,651 questions** across **15 category datasets** and **112 distinct quizzes**
-- Bilingual content model: Swedish and Arabic variants with a shared schema
-- **1,853 questions with images** and **2,508 with audio**, with media references resolved into a consistent local asset store
-- Normalised JSON schema (`questionNumber`, `answers[]`, `correctAnswer`, `imageUrl`, `audioUrl`, `quizUrl`) designed for direct consumption by a quiz client
-- Worked through encoding, duplicate-question, and broken-media issues to produce clean, importable datasets
+### 🛍️ Nexus Commerce
+Multilingual e-commerce platform with customer, vendor and admin experiences in one system.
+- 36 Prisma models across catalog, orders, vendors and CMS
+- Stripe checkout, gift cards and PDF invoices
+- Better Auth with OAuth + OTP
+- Meilisearch, inventory alerts and review moderation
+- Arabic/English content with 2,000+ translations
 
----
+`Next.js 15` `TypeScript` `PostgreSQL` `tRPC`
 
-## GitHub Activity
+</td>
+<td width="50%" valign="top">
 
-<p>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=osamakhalili&show_icons=true&hide_border=true&count_private=true" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=osamakhalili&layout=compact&hide_border=true&langs_count=6" alt="Top languages" />
-</p>
+### 📖 Alhuda Center
+Management system for a Quran school: students, teachers, Halaka scheduling, attendance, progress and finance.
+- Admin, teacher and parent portals
+- Quran/Nourania progress and homework evaluation
+- Halaka scheduling and attendance tracking
+- Payments, terms and educational-year reporting
+- Self-issued JWT + Argon2id, S3 uploads
 
----
+`React Router 7` `MySQL` `Drizzle` `Tailwind`
 
-## Focus Areas
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-- Backend design with clear controller / service / repository boundaries
-- REST contract quality: correct status codes, predictable payloads, useful error messages
-- Persistence modelling with JPA and Hibernate
-- Test-driven development and automated build pipelines
-- Containerised delivery from source to registry
+### 📤 TeoriExporter Pro
+Chrome extension (Manifest V3) that extracts Swedish driving-theory content into clean, portable study material.
+- Works with TeoriCentralen, Körkortsboken and Trafiko
+- Markdown/JSON export with images
+- Background crawl mode across chapters
+- Reading themes, search and progress UI
+- 120 KB content script, zero backend
 
----
+`Chrome MV3` `JavaScript` `Data extraction`
 
-<sub>Java backend developer based in Sweden. Open to backend and full-stack opportunities.</sub>
+</td>
+<td width="50%" valign="top">
+
+### 📚 Theory Question Bank
+Structured question bank for Swedish driving-licence theory across taxi, bus, truck and professional competence categories.
+- 4,651 questions across 15 datasets and 112 quizzes
+- Swedish and Arabic variants with a shared schema
+- 1,853 image and 2,508 audio references
+- Normalised JSON model ready for any quiz client
+- Encoding, duplicate and broken-media cleanup
+
+`JSON` `Data modelling` `Content pipeline`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🎬 Video Library Server
+Self-hosted streaming server for a driving-school video library, designed for a classroom LAN.
+- HMAC-signed streaming URLs with 12-hour expiry
+- HTTP Range support for seeking
+- Auto-refresh catalog every 30 seconds
+- 272 videos across 6 languages
+- Built-in question pages (150 Arabic / 210 Swedish)
+
+`Node.js` `HTTP` `Streaming`
+
+</td>
+<td width="50%" valign="top">
+
+### 🌐 xTrafik & xTruck
+SEO-focused landing sites for a driving school and a truck-training programme in Gothenburg.
+- Hand-built static HTML with structured metadata
+- Sitemap, robots.txt and 404 pages
+- Apache `.htaccess` routing and caching
+- Swedish, English and Arabic audience targeting
+
+`HTML` `CSS` `SEO` `Apache`
+
+</td>
+</tr>
+</table>
+
+<!-- ─────────────────────── ACHIEVEMENTS ─────────────────────── -->
+
+## 🏆 Achievements Unlocked
+
+```diff
++ [UNLOCKED] Platform Builder .... 4 production-grade platforms from database to UI
++ [UNLOCKED] Payments Engineer ... Stripe + Swish, webhooks, invoices and QR check-in
++ [UNLOCKED] Data Engineer ....... 4,651-question bilingual exam bank
++ [UNLOCKED] Automation .......... Chrome crawler, CI pipelines, cron jobs, signed media URLs
++ [UNLOCKED] Multilingual ........ Swedish, Arabic (RTL), English and Somali
+- [LOCKED]   ??? ................. collaborate with me to find out
+```
+
+<!-- ─────────────────────── STATS ─────────────────────── -->
+
+## 📡 Telemetry
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=osamakhalili&show_icons=true&theme=tokyonight&count_private=true&hide_border=true&bg_color=0d1117&title_color=36BCF7&icon_color=36BCF7" height="170" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=osamakhalili&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=36BCF7" height="170" alt="Top Languages" />
+</div>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com/?user=osamakhalili&theme=tokyonight&hide_border=true&background=0d1117&ring=36BCF7&fire=36BCF7&currStreakLabel=36BCF7" alt="GitHub Streak" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=osamakhalili&bg_color=0d1117&color=36BCF7&line=36BCF7&point=ffffff&area=true&hide_border=true" width="95%" alt="Contribution Graph" />
+</div>
+
+<!-- ─────────────────────── PUZZLE ─────────────────────── -->
+
+## 🧩 Side Quest: The Type Alchemist
+
+> *A traveler hands you the scroll* `"Hello World"` *and asks for* `"dlroW olleH"` — in a single TypeScript type.*
+
+<details>
+<summary><b>⚡ Level 1 — The Recursive Mage</b></summary>
+
+```ts
+type Reverse<S extends string> =
+  S extends `${infer Head}${infer Tail}` ? `${Reverse<Tail>}${Head}` : "";
+```
+Template literal types + recursion. Elegant, and the compiler does the work.
+</details>
+
+<details>
+<summary><b>🔮 Level 2 — The Accumulator</b></summary>
+
+```ts
+type Reverse<S extends string, Acc extends string = ""> =
+  S extends `${infer Head}${infer Tail}` ? Reverse<Tail, `${Head}${Acc}`> : Acc;
+```
+Tail-recursive form: each character is pushed onto the front of the accumulator.
+</details>
+
+<details>
+<summary><b>🧠 Boss Level — The Tuple Weaver</b></summary>
+
+```ts
+type Split<S extends string> =
+  S extends `${infer Head}${infer Tail}` ? [Head, ...Split<Tail>] : [];
+
+type Join<T extends string[]> =
+  T extends [infer Head extends string, ...infer Tail extends string[]]
+    ? `${Head}${Join<Tail>}`
+    : "";
+
+type Reverse<S extends string> = Join<ReverseTuple<Split<S>>>;
+type ReverseTuple<T extends string[]> =
+  T extends [infer Head extends string, ...infer Tail extends string[]]
+    ? [...ReverseTuple<Tail>, Head]
+    : [];
+```
+Split into a tuple, reverse the tuple, join it back. Type-level composition at its finest.
+</details>
+
+**Found a weirder spell?** Open an issue or PR — the most creative one gets added here with credit. ✨
+
+<!-- ─────────────────────── OFFLINE ─────────────────────── -->
+
+## 🌙 When I'm Offline
+
+<div align="center">
+
+| 🛠️ | 📚 | ☕ |
+|:---:|:---:|:---:|
+| **Build mode**<br/>Side projects and refactoring | **Learn mode**<br/>Deep dives into new stacks | **Fika mode**<br/>Coffee, code reviews and good conversations |
+
+</div>
+
+<!-- ─────────────────────── CONNECT ─────────────────────── -->
+
+## 🔌 Open a Connection
+
+```bash
+osama@stockholm:~$ ssh you@collaboration --port=always-open
+```
+
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=36BCF7)](https://github.com/osamakhalili)
+
+<br/>
+
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random dev quote" />
+
+<br/>
+
+**`// Building products that people actually use`**
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:36BCF7,50:203a43,100:0f2027&height=120&section=footer" width="100%" alt="footer" />
+
+</div>
