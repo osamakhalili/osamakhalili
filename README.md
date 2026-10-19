@@ -144,22 +144,7 @@ Chrome extension (Manifest V3) that extracts Swedish driving-theory content into
 `Chrome MV3` `JavaScript` `Data extraction`
 
 </td>
-<td width="50%" valign="top">
 
-### 📚 Theory Question Bank
-Structured question bank for Swedish driving-licence theory across taxi, bus, truck and professional competence categories.
-- 4,651 questions across 15 datasets and 112 quizzes
-- Swedish and Arabic variants with a shared schema
-- 1,853 image and 2,508 audio references
-- Normalised JSON model ready for any quiz client
-- Encoding, duplicate and broken-media cleanup
-
-`JSON` `Data modelling` `Content pipeline`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
 
 ### 🎬 Video Library Server
 Self-hosted streaming server for a driving-school video library, designed for a classroom LAN.
