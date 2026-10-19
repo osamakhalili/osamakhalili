@@ -15,11 +15,11 @@
 
 <br/><br/>
 
-<a href="#work">Work</a> &nbsp;·&nbsp;
-<a href="#toolbox">Toolbox</a> &nbsp;·&nbsp;
-<a href="#journey">Journey</a> &nbsp;·&nbsp;
-<a href="#telemetry">Stats</a> &nbsp;·&nbsp;
-<a href="#connect">Connect</a>
+<a href="#user-content-work">Work</a> &nbsp;·&nbsp;
+<a href="#user-content-toolbox">Toolbox</a> &nbsp;·&nbsp;
+<a href="#user-content-journey">Journey</a> &nbsp;·&nbsp;
+<a href="#user-content-telemetry">Stats</a> &nbsp;·&nbsp;
+<a href="#user-content-connect">Connect</a>
 
 </div>
 
@@ -245,8 +245,6 @@ flowchart LR
 </p>
 
 <!-- ============================== ACHIEVEMENTS ============================== -->
-<a name="achievements"></a>
-
 <div align="center">
   <sub><b>04 · TRACK RECORD</b></sub>
   <h2>What I have shipped</h2>
@@ -296,8 +294,6 @@ flowchart LR
 </div>
 
 <!-- ============================== PRINCIPLES ============================== -->
-<a name="principles"></a>
-
 <div align="center">
   <sub><b>06 · HOW I WORK</b></sub>
   <h2>Three rules I keep coming back to</h2>
@@ -308,8 +304,6 @@ flowchart LR
 | Schema, permissions and state transitions before pixels. A good data model makes the UI obvious. | If it compiles, it should behave. End-to-end types remove a whole class of bugs and meetings. | Auth, payments, notifications and ops are part of the feature — not a follow-up ticket. |
 
 <!-- ============================== SIDE QUEST ============================== -->
-<a name="side-quest"></a>
-
 <div align="center">
   <sub><b>07 · SIDE QUEST</b></sub>
   <h2>The type alchemist</h2>
@@ -361,8 +355,6 @@ Split into a tuple, reverse the tuple, join it back. Type-level composition at i
 <p align="center"><sub>Found a weirder spell? Open an issue — the most creative one gets added here with credit.</sub></p>
 
 <!-- ============================== CURRENTLY ============================== -->
-<a name="currently"></a>
-
 <div align="center">
   <sub><b>08 · CURRENTLY</b></sub>
   <h2>Now, next, open</h2>
