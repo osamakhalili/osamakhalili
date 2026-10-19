@@ -233,12 +233,13 @@ SEO-focused landing sites for a driving school and a truck-training programme in
   <h2>From backend structure to product empathy</h2>
 </div>
 
-```mermaid
-graph LR
-    A[Java backend] --> B[React frontend]
-    B --> C[TypeScript platforms]
-    C --> D[Product engineering]
-```
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/osamakhalili/osamakhalili/main/assets/journey-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/osamakhalili/osamakhalili/main/assets/journey-light.svg" />
+    <img src="https://raw.githubusercontent.com/osamakhalili/osamakhalili/main/assets/journey-dark.svg" width="100%" alt="Journey: Java backend, React frontend, TypeScript platforms, product engineering" />
+  </picture>
+</div>
 
 <p align="center">
   <sub>Backend taught me structure. Frontend taught me empathy. Shipping taught me that done is better than perfect.</sub>
