@@ -49,7 +49,7 @@
       <text x="102" y="262" font-size="12.5" fill="#0F172A">Open to collaboration</text>
 
       <rect x="288" y="238" width="150" height="38" rx="19" fill="#FFFFFF" stroke="#E2E8F0"/>
-      <text x="363" y="262" text-anchor="middle" font-size="12.5" fill="#475569">Sweden · UTC+1</text>
+      <text x="363" y="262" text-anchor="middle" font-size="12.5" fill="#475569">Sweden · UTC+1/+2</text>
 
       <rect x="450" y="238" width="186" height="38" rx="19" fill="#FFFFFF" stroke="#E2E8F0"/>
       <text x="543" y="262" text-anchor="middle" font-size="12.5" fill="#475569">TypeScript · Next.js</text>
