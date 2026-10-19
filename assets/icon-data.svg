@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="Data layer">
-  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#A78BFA"/><stop offset="1" stop-color="#22D3EE"/></linearGradient></defs>
-  <rect x="1" y="1" width="62" height="62" rx="16" fill="#0F172A" stroke="#1E293B"/>
-  <g fill="none" stroke="url(#g)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
-    <ellipse cx="32" cy="22" rx="14" ry="5"/>
-    <path d="M18 22v9c0 2.8 6.3 5 14 5s14-2.2 14-5v-9"/>
-    <path d="M18 31v9c0 2.8 6.3 5 14 5s14-2.2 14-5v-9"/>
-  </g>
-</svg>
