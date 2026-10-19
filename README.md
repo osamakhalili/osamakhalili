@@ -234,10 +234,11 @@ SEO-focused landing sites for a driving school and a truck-training programme in
 </div>
 
 ```mermaid
-flowchart LR
-    A["Java & Spring<br/>REST · JPA"] --> B["React & Next.js<br/>interfaces"]
-    B --> C["Type-safe platforms<br/>tRPC · Prisma"]
-    C --> D["Products<br/>payments · auth · ops"]
+graph LR
+    A[Java backend] --> B[React frontend]
+    B --> C[TypeScript platforms]
+    C --> D[Payments and authentication]
+    D --> E[Product engineering]
 ```
 
 <p align="center">
