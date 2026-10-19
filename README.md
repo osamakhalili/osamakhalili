@@ -217,6 +217,14 @@ SEO-focused landing sites for a driving school and a truck-training programme in
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=osamakhalili&bg_color=0d1117&color=36BCF7&line=36BCF7&point=ffffff&area=true&hide_border=true" width="95%" alt="Contribution Graph" />
 </div>
 
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/osamakhalili/osamakhalili/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/osamakhalili/osamakhalili/output/github-snake.svg" />
+    <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/osamakhalili/osamakhalili/output/github-snake.svg" />
+  </picture>
+</div>
+
 <!-- ─────────────────────── PUZZLE ─────────────────────── -->
 
 ## 🧩 Side Quest: The Type Alchemist
